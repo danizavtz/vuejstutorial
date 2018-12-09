@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bin/www",
     "dev": "nodemon bin/www",
-    "test": "mocha --reporter spec test/"
+    "test": "mocha --reporter spec --exit test/"
   },
   "repository": {
     "type": "git",
