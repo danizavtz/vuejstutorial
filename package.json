@@ -1,0 +1,41 @@
+{
+  "name": "vuejstutorial",
+  "version": "1.0.0",
+  "description": "tutorial vuejs express nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "test": "mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danizavtz/vuejstutorial.git"
+  },
+  "keywords": [
+    "nodejs",
+    "vuejs"
+  ],
+  "author": "danizavtz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danizavtz/vuejstutorial/issues"
+  },
+  "homepage": "https://github.com/danizavtz/vuejstutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "nodemon": "^1.18.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.7",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
