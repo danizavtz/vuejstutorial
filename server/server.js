@@ -1,18 +1,10 @@
-(function() {
+const express = require('express');
+const router = express.Router();
 
-    'use strict';
+router.use(require('./routes/todo.route'));
 
-    const express = require('express');
-    const router = express.Router();
+router.get('/', (req, res) => {
+    res.status(200).json("Server up and running")
+});
 
-    router.use(require('./routes/todo.route'));
-
-
-    router.get('/', (req, res) => {
-        res.status(200).json("Server up and running")
-    });
-
-    module.exports = router;
-
-
-}());
+module.exports = router;
